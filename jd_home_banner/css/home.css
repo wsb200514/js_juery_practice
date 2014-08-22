@@ -1,0 +1,38 @@
+/*css for home_banner*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#banner_box{
+	width: 670px;
+	height: 240px;
+	position: relative;
+}
+#banner_box #banner img{
+	position: absolute;
+}
+#banner_box #banner_icon{
+	position: absolute;
+	right: 10px;
+	bottom: 8px;
+}
+#banner_box #banner_icon span{
+	display: block;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	border-top-left-radius: 11px;
+	border-top-right-radius: 11px;
+	border-bottom-left-radius: 11px;
+	border-bottom-right-radius: 11px;
+	background-color: #999999;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Arial,Verdana,"宋体";
+	float: left;
+	margin-left: 5px;
+}
+#banner_box #banner_icon span.selected{
+	background-color: #E4393C;
+}
